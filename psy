@@ -1,0 +1,20 @@
+        VStack(spacing: 50) {
+            Button("BlockOperation") {
+                model.addBlockOperation()
+            }
+            
+            Button("SimpleOperation") {
+                model.addSimpleOperation()
+            }
+            
+            Button("AsyncOperation") {
+                model.addAsyncOperation()
+            }
+            
+            Button("DependencyOperation") {
+                model.addDependencyOperation()
+            }
+        }
+    }
+}
+
